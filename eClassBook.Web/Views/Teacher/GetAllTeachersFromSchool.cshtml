@@ -1,0 +1,27 @@
+﻿@model IEnumerable<eClassBook.ViewModels.Teacher.TeacherTableViewModel>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Get all teachers from scholl</h1>
+
+<div>
+    @foreach (var item in Model)
+    {
+        <p>@item.SchoolUserId</p>
+        <p>@item.FullName</p>
+        <p>@item.Address</p>
+        <p>@item.Grade</p>
+        <p>@item.Email</p>
+        <p>@item.AvgScore</p>
+
+        @foreach (var subject in @item.Subjects)
+        {
+            <p>@subject.Name</p>
+        }
+        <p>@item.Email</p>
+
+    }
+</div>

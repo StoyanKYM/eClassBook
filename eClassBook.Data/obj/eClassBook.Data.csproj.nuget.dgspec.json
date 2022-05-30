@@ -1,0 +1,231 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Data\\eClassBook.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Data\\eClassBook.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Data\\eClassBook.Data.csproj",
+        "projectName": "eClassBook.Data",
+        "projectPath": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Data\\eClassBook.Data.csproj",
+        "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stoyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Models\\eClassBook.Models.csproj": {
+                "projectPath": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Models\\eClassBook.Models.csproj"
+              },
+              "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.ViewModels\\eClassBook.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.ViewModels\\eClassBook.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Models\\eClassBook.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Models\\eClassBook.Models.csproj",
+        "projectName": "eClassBook.Models",
+        "projectPath": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Models\\eClassBook.Models.csproj",
+        "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stoyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.ViewModels\\eClassBook.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.ViewModels\\eClassBook.ViewModels.csproj",
+        "projectName": "eClassBook.ViewModels",
+        "projectPath": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.ViewModels\\eClassBook.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stoyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Models\\eClassBook.Models.csproj": {
+                "projectPath": "C:\\Users\\Stoyan\\source\\repos\\eClassBookSolution\\eClassBook.Models\\eClassBook.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

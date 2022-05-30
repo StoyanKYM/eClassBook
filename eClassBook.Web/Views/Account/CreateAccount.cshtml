@@ -1,0 +1,36 @@
+﻿@using eClassBook.Models.Enumerations
+@model eClassBook.ViewModels.Register.FullRegisterInputModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1 class="offset-md-5 mt-4">Register Account</h1>
+
+<h1>@this.ViewData["Title"]</h1>
+
+<form method="post" class="col-md-6 offset-md-3">
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="Pin"></label>
+        <input asp-for="Pin" class="form-control" />
+        <span asp-validation-for="Pin" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="RoleName"></label>
+        <input asp-for="RoleName" class="form-control" />
+        <span asp-validation-for="RoleName" class="text-danger"></span>
+    </div>
+
+    <input type="submit" class="btn btn-primary"/>
+</form>

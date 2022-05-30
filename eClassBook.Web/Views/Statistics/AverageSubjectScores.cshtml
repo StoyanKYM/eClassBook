@@ -1,0 +1,20 @@
+﻿@model ICollection<eClassBook.Services.DTOs.StatisticInfoDTO>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Average subjects scores</h1>
+
+
+@foreach (var item in Model)
+{
+    <div>
+        <p>@item.Name</p>
+        <p>@item.Value</p>
+    </div>
+}
+
+<hr />
+

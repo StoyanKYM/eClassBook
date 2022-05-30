@@ -1,0 +1,18 @@
+﻿@model List<eClassBook.ViewModels.Class.ClassViewModel>
+@{
+}
+
+<h1>Get aLl classes</h1>
+
+@foreach (var item in Model)
+{
+    <div>
+        <p>First Name: @item.ClassTeacher.FirstName</p>
+        <p>Second Name: @item.ClassTeacher.SecondName</p>
+        <p>Class Grade: @item.Grade</p>
+        <p>Class Grade letter: @item.GradeLetter</p>
+        <p>Start Year: @item.StartYear</p>
+    </div>
+}
+
+<hr />

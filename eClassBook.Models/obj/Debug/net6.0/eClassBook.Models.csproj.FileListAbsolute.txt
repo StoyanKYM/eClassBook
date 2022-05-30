@@ -1,0 +1,12 @@
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\bin\Debug\net6.0\eClassBook.Models.deps.json
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\bin\Debug\net6.0\eClassBook.Models.dll
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\bin\Debug\net6.0\eClassBook.Models.pdb
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\obj\Debug\net6.0\eClassBook.Models.csproj.AssemblyReference.cache
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\obj\Debug\net6.0\eClassBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\obj\Debug\net6.0\eClassBook.Models.AssemblyInfoInputs.cache
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\obj\Debug\net6.0\eClassBook.Models.AssemblyInfo.cs
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\obj\Debug\net6.0\eClassBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\obj\Debug\net6.0\eClassBook.Models.dll
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\obj\Debug\net6.0\refint\eClassBook.Models.dll
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\obj\Debug\net6.0\eClassBook.Models.pdb
+C:\Users\Stoyan\source\repos\eClassBookSolution\eClassBook.Models\obj\Debug\net6.0\ref\eClassBook.Models.dll

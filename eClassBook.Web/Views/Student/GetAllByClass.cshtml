@@ -1,0 +1,24 @@
+﻿@model IEnumerable<eClassBook.Services.DTOs.SchoolUserDTOs.StudentDTO>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Get All By Class</h1>
+
+<div>
+ @foreach(var item in Model)
+    {
+            <p>@item.ClassId</p>
+            <p>@item.StartYear</p>
+            <p>@item.FirstName</p>
+            <p>@item.SecondName</p>
+            <p>@item.LastName</p>
+            <p>@item.StartYear</p>
+            <p>@item.SchoolId</p>
+            <p>@item.Address</p>
+    }
+
+</div>
+

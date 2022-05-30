@@ -1,0 +1,16 @@
+﻿@model IList<eClassBook.ViewModels.Student.StudentViewModel>
+
+
+@foreach(var item in @Model)
+{
+    <div>
+        <p>@item.FirstName</p>
+        <p>@item.SecondName</p>
+        <p>@item.LastName</p>
+        <p>@item.StartYear</p>
+        <p>@item.SchoolId</p>
+        <p>@item.Address</p>
+    </div>
+    <hr />
+}
+
