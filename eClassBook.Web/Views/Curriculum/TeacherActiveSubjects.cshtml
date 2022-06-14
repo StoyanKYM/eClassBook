@@ -1,0 +1,25 @@
+﻿@model List<eClassBook.ViewModels.Class.ClassToSubjectViewModel>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>TeacherActiveSubjects</h1>
+
+
+@foreach (var item in Model)
+{
+    <div>
+        <p>StartYear: @item.Id</p>
+        <p>ClassId: @item.SubjectName</p>
+        <p>ParentId: @item.Grade</p>
+        <p>SchoolUserId: @item.TeacherName</p>
+        <p>FullName: @item.WeekDay</p>
+        <p>FirstName: @item.StartTime</p>
+        <p>SecondName: @item.EndTime</p>
+    </div>
+}
+
+<hr />
+}

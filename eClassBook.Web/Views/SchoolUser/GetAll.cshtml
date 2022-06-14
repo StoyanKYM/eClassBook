@@ -1,0 +1,13 @@
+﻿@model IEnumerable<eClassBook.ViewModels.User.UserViewModel>
+
+<h1 class="col-md-5 offset-md-3 mt-4">All School Users</h1>
+
+@foreach (var item in Model)
+{
+    <div class="col-md-6 offset-md-3">
+        <p>Name: @item.FullName
+        <p>Role Name: @item.Role</p>
+    </div>
+
+    <hr />
+}

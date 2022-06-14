@@ -1,0 +1,28 @@
+﻿@model List<eClassBook.ViewModels.Student.StudentViewModel>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Student Weekly curriculum</h1>
+
+@foreach (var item in Model)
+{
+    <div>
+        <p>StartYear: @item.StartYear</p>
+        <p>ClassId: @item.ClassId</p>
+        <p>ParentId: @item.ParentId</p>
+        <p>SchoolUserId: @item.SchoolUserId</p>
+        <p>FullName: @item.FullName</p>
+        <p>FirstName: @item.FirstName</p>
+        <p>SecondName: @item.SecondName</p>
+        <p>LastName: @item.LastName</p>
+        <p>Address: @item.Address</p>
+        <p>Town: @item.Town</p>
+        <p>SchoolId: @item.SchoolId</p>
+    </div>
+}
+
+<hr />
+}

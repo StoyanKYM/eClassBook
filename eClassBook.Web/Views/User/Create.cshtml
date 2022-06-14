@@ -1,0 +1,63 @@
+﻿@using eClassBook.Models.Enumerations
+@model eClassBook.ViewModels.User.UserInputModel
+
+@{
+    this.ViewData["Title"] = "Create new User!";
+    
+    //var categoryItems = this.Model.SchoolItems.Select(x => new SelectListItem(x.Value, x.Text));
+    //var categoryItems = this.Model.SchoolItems;
+
+}
+
+<h1>@this.ViewData["Title"]</h1>
+
+<form method="post" class="col-md-6 offset-md-3">
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="SecondName"></label>
+        <input asp-for="SecondName" class="form-control" />
+        <span asp-validation-for="SecondName" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="Pin"></label>
+        <input asp-for="Pin" class="form-control" />
+        <span asp-validation-for="Pin" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="Address"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="Town"></label>
+        <input asp-for="Town" class="form-control" />
+        <span asp-validation-for="Town" class="text-danger"></span>
+    </div>
+
+     <div class="form-group" asp-validation-summary="All">
+        <label asp-for="RoleType"></label>
+        <select asp-for="RoleType" asp-items="Html.GetEnumSelectList<RoleTypes>()" class="form-control"></select>
+    </div>
+
+   <div class="text-left">
+       <label asp-for="SchoolItems"></label>
+        @Html.DropDownListFor(m => m.Id, new SelectList(Model.SchoolItems, "Value", "Text"), new { @class = "form-control", @style = "width:100%;" })<br />
+
+   </div>
+
+   
+
+    
+
+
+    <input type="submit" class="btn btn-primary"/>
+</form>

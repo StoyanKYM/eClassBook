@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\eClassBook.AutoMapper",
+    "\\eClassBook.Data",
+    "\\eClassBook.Models",
+    "\\eClassBook.Models\\obj",
+    "\\eClassBook.Models\\SchoolUserEntities",
+    "\\eClassBook.Web"
+  ],
+  "SelectedNode": "\\eClassBook.Web\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

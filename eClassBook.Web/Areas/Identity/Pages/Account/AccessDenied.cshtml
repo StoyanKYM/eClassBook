@@ -1,0 +1,10 @@
+﻿@page
+@model AccessDeniedModel
+@{
+    ViewData["Title"] = "Страницата е недостъпна.";
+}
+
+<header class="offset-md-4 mt-4">
+    <h1 class="text-danger">@ViewData["Title"]</h1>
+    <p class="text-danger">Нямате достатъчно права за да достъпите този ресурс.</p>
+</header>

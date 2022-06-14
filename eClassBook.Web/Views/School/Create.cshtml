@@ -1,0 +1,30 @@
+﻿@model eClassBook.ViewModels.School.SchoolInputModel
+@{
+}
+
+@{
+    this.ViewData["Title"] = "Create new School!";
+}
+
+<h1 class="offset-md-5 mt-4">@this.ViewData["Title"]</h1>
+
+<form method="post" class="col-md-6 offset-md-3">
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="Address"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="Number"></label>
+        <input asp-for="Number" class="form-control" />
+        <span asp-validation-for="Number" class="text-danger"></span>
+    </div>
+
+    <input type="submit" class="btn btn-primary"/>
+</form>
+

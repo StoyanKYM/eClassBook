@@ -1,0 +1,41 @@
+﻿@model eClassBook.ViewModels.Class.ClassInputModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    this.ViewData["Title"] = "Create new Class!";
+}
+
+
+<h1 class="offset-md-5 mt-4">@this.ViewData["Title"]</h1>
+
+<form method="post" class="col-md-6 offset-md-3">
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="StartYear"></label>
+        <input asp-for="StartYear" class="form-control" />
+        <span asp-validation-for="StartYear" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="GradeYear"></label>
+        <input asp-for="GradeYear" class="form-control" />
+        <span asp-validation-for="GradeYear" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="GradeLetter"></label>
+        <input asp-for="GradeLetter" class="form-control" />
+        <span asp-validation-for="GradeLetter" class="text-danger"></span>
+    </div>
+    <div class="form-group" asp-validation-summary="All">
+        <label asp-for="SchoolId"></label>
+        <input asp-for="SchoolId" class="form-control" />
+        <span asp-validation-for="SchoolId" class="text-danger"></span>
+    </div>
+     <div class="form-group" asp-validation-summary="All">
+        <label asp-for="ClassTeacherId"></label>
+        <input asp-for="ClassTeacherId" class="form-control" />
+        <span asp-validation-for="ClassTeacherId" class="text-danger"></span>
+    </div>
+
+
+    <input type="submit" class="btn btn-primary"/>
+</form>

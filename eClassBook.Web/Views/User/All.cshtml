@@ -1,0 +1,17 @@
+﻿@*
+@model eClassBook.ViewModels.User.SchoolUserListViewModel
+*@
+@{
+    this.ViewData["Title"] = "Todo";
+}
+
+<h1>this.ViewData["Title"]</h1>
+
+@for (var i = 0; i < 12; i++)
+{
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+    </ul>
+}

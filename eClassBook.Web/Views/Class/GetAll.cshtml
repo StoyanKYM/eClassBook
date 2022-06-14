@@ -1,0 +1,19 @@
+﻿@model List<eClassBook.ViewModels.Class.ClassViewModel>
+@{
+}
+
+<h1 class="display-4 offset-md-3 mt-4 mb-4">Get all classes</h1>
+
+@foreach (var item in Model)
+{
+    <div class="offset-md-3">
+        <p>First Name: @item.ClassTeacher.FirstName</p>
+        <p>Second Name: @item.ClassTeacher.SecondName</p>
+        <p>Class Grade: @item.Grade</p>
+        <p>Class Grade letter: @item.GradeLetter</p>
+        <p>Start Year: @item.StartYear</p>
+    </div>
+
+    <hr />
+}
+

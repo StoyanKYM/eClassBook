@@ -1,0 +1,13 @@
+﻿@model List<eClassBook.ViewModels.School.SchoolViewModel>
+
+    <h1 class="display-4 offset-md-3 mt-4 mb-4">Училища с които работим.</h1>
+
+@foreach (var item in Model)
+{
+    <div class="offset-md-3">
+        <p>Name: @item.Name</p>
+        <p>Address: @item.Address</p>
+        <p>Number: @item.Number</p>
+    </div>
+    <hr />
+}

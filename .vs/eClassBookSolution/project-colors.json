@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "65bbd03c-15dd-4671-a6f0-abedc861ef55": {
+      "ProjectGuid": "65bbd03c-15dd-4671-a6f0-abedc861ef55",
+      "DisplayName": "eClassBook.Models",
+      "ColorIndex": 0
+    },
+    "beb0b005-4041-4d23-baf0-52c0b81f9fba": {
+      "ProjectGuid": "beb0b005-4041-4d23-baf0-52c0b81f9fba",
+      "DisplayName": "eClassBook.Data",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
